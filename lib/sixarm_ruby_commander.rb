@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm Ruby Gem: Commander is syntax sugar from Open4::spawn
@@ -13,7 +15,7 @@ Kernel#commander sugar method wrapper for Open4::spawn
    commander(command, option=>value, option=>value, ...)
 
  ==Example
-   commander('ls') 
+   commander('ls')
    => Open4::spawn('ls',:stdout=>'',:stderr=>'')
    => 'ls', {}, status, stdout, stderr
 
@@ -31,7 +33,7 @@ module Kernel
   # Optional args are the same as Open4::spawn (stdin, stdout, stderr).
   #
   # Return status, stdout, stderr
- 
+
   def commander(command,args={}) #=> status exit code, stdout string, stderr string
    stdin=args['stdin']||nil
    stdout=args['stdout']||''
