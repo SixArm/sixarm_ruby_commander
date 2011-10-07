@@ -1,10 +1,8 @@
+= SixArm.com » Ruby » Commander is syntax sugar from Open4::spawn
 
-= SixArm Ruby Gem: Commander is syntax sugar from Open4::spawn
-
-Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+Author:: Joel Parker Henderson, joel@joelparkerhenderson.com
+Copyright:: Copyright (c) 2006-2011 Joel Parker Henderson
+License:: See LICENSE.txt file
 
 Kernel#commander sugar method wrapper for Open4::spawn
 

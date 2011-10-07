@@ -13,8 +13,10 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.require_path      = 'lib'
   s.has_rdoc          = true
-  s.files             = ['README.rdoc','LICENSE.txt','lib/sixarm_ruby_commander.rb']
-  s.test_files        = ['test/sixarm_ruby_commander_test.rb']
+
+  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.rdoc", "VERSION"]
+  lib_files           = ["lib/#{s.name}.rb"]
+  test_files          = ["test/#{s.name}_test.rb"]
 
   s.add_dependency('open4', '>=0.9.6')
 
