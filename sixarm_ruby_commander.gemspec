@@ -1,4 +1,3 @@
-
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_commander"
@@ -17,6 +16,9 @@ Gem::Specification.new do |s|
   top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
   lib_files           = ["lib/#{s.name}.rb"]
   test_files          = ["test/#{s.name}_test.rb"]
+
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
 
   s.add_dependency('open4', '>=0.9.6')
 
