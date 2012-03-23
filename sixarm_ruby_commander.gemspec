@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_commander"
   s.summary           = "SixArm.com » Ruby » Kernel#commander method sugar for Open4::spawn"
-  s.version           = "1.0.2"
+  s.version           = "1.1.0"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"
@@ -13,13 +13,13 @@ Gem::Specification.new do |s|
   s.require_path      = 'lib'
   s.has_rdoc          = true
 
-  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
+  top_files           = [".gemtest", "Rakefile", "README.md", "VERSION"]
   lib_files           = ["lib/#{s.name}.rb"]
   test_files          = ["test/#{s.name}_test.rb"]
 
   s.files             = top_files + lib_files + test_files
   s.test_files        = test_files
 
-  s.add_dependency('open4', '>=0.9.6')
+  s.add_dependency('open4', '>=1.3.0')
 
 end

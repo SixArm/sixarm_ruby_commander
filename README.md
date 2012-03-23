@@ -7,7 +7,19 @@
 
 ## Introduction
 
-Kernel#commander sugar method wrapper for Open4::spawn
+Kernel#commander sugar wrapper for Open4::spawn
+
+Syntax:
+
+    commander(command, option=>value, option=>value, ...)
+
+Example:
+
+    commander('ls') 
+    #=> Open4::spawn('ls',:stdout=>'',:stderr=>'')
+    #=> 'ls', {}, status, stdout, stderr
+
+Any options will be sent along to the spawn method.
 
 For docs go to <http://sixarm.com/sixarm_ruby_commander/doc>
 
@@ -22,7 +34,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_commander", "~>1.0.2"
+    gem "sixarm_ruby_commander", "~>1.1.0"
 
 Require:
 
@@ -42,24 +54,12 @@ To install with high security:
     gem install sixarm_ruby_commander --test --trust-policy HighSecurity
 
 
-## Syntax
-
-    commander(command, option=>value, option=>value, ...)
-
-
-## Example
-
-    commander('ls') 
-    #=> Open4::spawn('ls',:stdout=>'',:stderr=>'')
-    #=> 'ls', {}, status, stdout, stderr
-
-Any options will be sent along to the spawn method.
-
-
 ## Changes
 
-* 2012-03-14 1.0.2 Update docs, tests
+* 2012-03-23 1.1.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.
 * 2011-10-06 1.0.2 Updates for gem publishing
+
+
 ## License
 
 You may choose any of these open source licenses:
