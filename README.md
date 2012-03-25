@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> Commander is syntax sugar from Open4::spawn
 
-* Docs: <http://sixarm.com/sixarm_ruby_commander/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_commander/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_commander>
 * Repo: <http://github.com/sixarm/sixarm_ruby_commander>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
