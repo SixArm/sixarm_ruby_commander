@@ -4,7 +4,7 @@ Please see README
 =end
 
 
-require 'open4'
+require "open4"
 
 module Kernel
 
