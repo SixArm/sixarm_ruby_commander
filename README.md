@@ -1,4 +1,4 @@
-SixArm.com → Ruby → <br> Commander is syntax sugar from Open4::spawn
+# SixArm.com → Ruby → <br> Commander is syntax sugar from Open4::spawn
 
 * Doc: <http://sixarm.com/sixarm_ruby_commander/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_commander>
