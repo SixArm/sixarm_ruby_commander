@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_commander"
-  s.summary           = "SixArm.com » Ruby » Kernel#commander"
+  s.summary           = "SixArm.com → Ruby → Kernel#commander"
   s.description       = "Kernel#commander method sugar for Open4::spawn"
   s.version           = "1.1.1"
 
